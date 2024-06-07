@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro'
+import PolylineVerticalChart from '../components/chart/PolylineVerticalChart'
+import VerticalChart from '../components/chart/VerticalChart'
+import Bar from '../components/chart/Bar'
+import PieChart from '../components/chart/PieChart'
+import LineChart from '../components/chart/LineChart'
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<div class="m-auto max-w-[600px]">	
+			<div>
+				<Bar client:load />
+			</div>
+			<div>
+				<LineChart client:load />
+			</div>
+			<div>
+				<VerticalChart client:load />
+			</div>
+			<div>
+				<PieChart client:load />
+			</div>
+			<div>
+				<PolylineVerticalChart client:load />
+			</div>
+		</div>
+	</main>
+</Layout>
+
+<style>
+</style>

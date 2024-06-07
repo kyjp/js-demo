@@ -1,0 +1,44 @@
+{
+  "name": "tidal-telescope",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/lit": "^4.0.1",
+    "@astrojs/preact": "^3.3.0",
+    "@astrojs/react": "^3.4.0",
+    "@astrojs/solid-js": "^4.2.0",
+    "@astrojs/svelte": "^5.4.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vue": "^4.3.0",
+    "@faker-js/faker": "^8.4.1",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
+    "@types/faker": "^6.6.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.9.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "d3": "^7.9.0",
+    "install": "^0.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-three-fiber": "^6.0.13",
+    "tailwindcss": "^3.4.3",
+    "three": "^0.164.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "chart.js": "^4.4.3",
+    "react-chartjs-2": "^5.2.0",
+    "sass": "^1.77.2"
+  }
+}

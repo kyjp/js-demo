@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro'
+import GridComponent from '../components/GridComponent'
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<div>	
+			<div class="relative">
+				<GridComponent client:only />
+			</div>
+		</div>
+	</main>
+</Layout>
+
+<style>
+</style>
